@@ -1,0 +1,15 @@
+{
+  "name": "googleform-to-slack",
+  "version": "1.0.0",
+  "description": "",
+  "author": "jiyuujin <jiyuujinunite@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "esbuild ./handler.ts --bundle --outdir=.esbuild"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.3",
+    "esbuild": "0.17.11",
+    "typescript": "4.9.5"
+  }
+}
